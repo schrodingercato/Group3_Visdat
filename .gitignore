@@ -1,6 +1,7 @@
 # Backup files from OCR
 *.original
 *.tmp.pdf
+download*.pdf
 
 # OS files
 Thumbs.db
