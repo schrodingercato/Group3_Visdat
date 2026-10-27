@@ -1,0 +1,23 @@
+Berikut saya lampirkan hasil uji ADMET (ADMETlab 2.0) untuk tiga ligan kandidat (quercetin, luteolin, mangiferin).
+
+Lampiran:
+1. PDF hasil ADMETlab 2.0 (hasil lengkap, dapat digunakan sebagai lampiran laporan Bab 8.8)
+2. File CSV hasil ADMETlab (data lengkap per parameter)
+3. Ringkasan_ADMET_Kandidat (tabel parameter utama, interpretasi singkat, keterbatasan, dan cara mereproduksi hasil)
+
+Poin utama: quercetin dan luteolin memenuhi aturan Lipinski, sedangkan mangiferin tidak (HBD 8, HBA 11) dan diprediksi memiliki absorpsi usus yang rendah. Ketiganya diprediksi berisiko rendah pada hERG, tidak menembus sawar darah otak, dan memiliki probabilitas DILI tinggi sehingga perlu validasi eksperimental. Seluruh hasil merupakan prediksi dan tidak menyimpulkan efektivitas klinis.
+
+Untuk Orang 6: tabel dan interpretasi pada ringkasan dapat digunakan sebagai bahan Pembahasan.
+
+Cara melihat sendiri hasilnya di ADMETlab:
+1. Buka https://admetmesh.scbdd.com/, pilih Services, lalu ADMET Screening.
+2. Tempel SMILES berikut, satu baris per senyawa, dengan urutan yang sama:
+Quercetin (CID 5280343):
+C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O
+Luteolin (CID 5280445):
+C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O
+Mangiferin (CID 5281647):
+C1=C2C(=CC(=C1O)O)OC3=C(C2=O)C(=C(C(=C3)O)[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O
+3. Klik Submit, lalu View pada tiap baris atau Download as CSV. Pastikan jumlah molekul 3 dan molekul tidak valid 0.
+
+Apabila diperlukan parameter lain dari CSV atau PDF, silakan informasikan kepada saya.

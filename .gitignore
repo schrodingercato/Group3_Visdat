@@ -1,0 +1,9 @@
+# Backup files from OCR
+*.original
+*.tmp.pdf
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

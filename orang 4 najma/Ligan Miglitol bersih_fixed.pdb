@@ -1,0 +1,33 @@
+REMARK   BIOVIA PDB file
+REMARK   Created:  2026-10-24T19:56:53Z
+CRYST1   93.707  107.854  111.758  90.00  90.00  90.00 P212121    
+HETATM    1  OAA MIG A1001      42.501  89.475  34.070  1.00 39.96           O  
+HETATM    2  OAB MIG A1001      43.540  94.054  36.293  1.00 20.95           O  
+HETATM    3  OAC MIG A1001      47.342  92.197  32.147  1.00 24.95           O  
+HETATM    4  OAD MIG A1001      48.486  93.759  34.400  1.00 23.80           O  
+HETATM    5  OAE MIG A1001      47.246  93.438  36.828  1.00 21.41           O  
+HETATM    6  CAF MIG A1001      43.223  90.215  35.050  1.00 33.35           C  
+HETATM    7  CAG MIG A1001      44.264  92.936  36.873  1.00 20.10           C  
+HETATM    8  CAH MIG A1001      43.204  91.670  34.575  1.00 31.33           C  
+HETATM    9  CAI MIG A1001      45.380  91.695  33.478  1.00 24.45           C  
+HETATM   10  CAJ MIG A1001      46.570  92.656  33.252  1.00 23.40           C  
+HETATM   11  CAK MIG A1001      47.393  92.821  34.536  1.00 22.91           C  
+HETATM   12  CAL MIG A1001      46.463  93.333  35.654  1.00 21.69           C  
+HETATM   13  CAM MIG A1001      45.251  92.390  35.835  1.00 22.75           C  
+HETATM   14  NAN MIG A1001      44.550  92.283  34.517  1.00 24.84           N  
+TER      15      MIG A1001 
+CONECT    1    6
+CONECT    2    7
+CONECT    3   10
+CONECT    4   11
+CONECT    5   12
+CONECT    6    1    8
+CONECT    7    2   13
+CONECT    8    6   14
+CONECT    9   10   14
+CONECT   10    3    9   11
+CONECT   11    4   10   12
+CONECT   12    5   11   13
+CONECT   13    7   12   14
+CONECT   14    8    9   13
+END

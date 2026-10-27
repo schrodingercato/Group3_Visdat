@@ -1,0 +1,22 @@
+Kode untuk bersihin reseptor yang error di pyrx
+PyMOL>remove not alt ''+A
+ Remove: eliminated 37 atoms in model "3L4W_Bersih".
+PyMOL>alter all, alt=''
+ Alter: modified 6912 atoms.
+PyMOL>remove hetatm
+PyMOL>remove solvent
+PyMOL>save protein_fixed.pdb
+ Save: wrote "protein_fixed.pdb".
+PyMOL>pwd
+C:\Users\ASUS\Documents
+
+Kode untuk mengetahui koordinat grip box pada reseptor awal:
+PyMOL>   get_extent Ligan_Miglitol_bersih
+ cmd.extent: min: [  42.501,  89.475,  32.147]
+ cmd.extent: max: [  48.486,  94.054,  36.873]
+
+Ligan Miglitol bersih_fixed = ini ligan miglitol doang hasil preparasi
+
+Reseptor 3L4W Bersih_fixed = ini reseptor 3l4w yang udah bersih no water no ligan dan fixed, anti error buat masuk ke pyrx
+
+Hasil Redocking Ligan Miglitol = ini hasil posisi ligan miglitolna setelah di redocking

@@ -1,0 +1,19 @@
+Berikut saya lampirkan tiga file ligan kandidat dalam format .pdbqt yang siap digunakan untuk docking
+- 5280343_uff_E=380.43_quercetin.pdbqt (quercetin, CID 5280343)
+- 5280445_uff_E=242.10_luteolin.pdbqt (luteolin, CID 5280445)
+- 5281647_uff_E=412.79_mangiferin.pdbqt (mangiferin, CID 5281647)
+
+Tahapan preparasi yang telah saya lakukan
+1. Struktur 3D ketiga senyawa diunduh dari PubChem dalam format SDF (3D Conformer) berdasarkan CID di atas.
+2. File SDF dimasukkan ke PyRx melalui tab Open Babel.
+3. Dilakukan minimisasi energi pada ketiga ligan dengan force field UFF menggunakan pengaturan default PyRx.
+4. Hasil minimisasi dikonversi ke format AutoDock ligand (.pdbqt) di PyRx, lalu diekspor dan disimpan sebagai file di atas.
+5. Pada nama file, angka setelah E= menunjukkan nilai energi hasil minimisasi UFF, sedangkan nama senyawa di bagian akhir ditambahkan untuk memudahkan identifikasi.
+
+Catatan penggunaan
+1. Ligan native (miglitol) tidak saya minimisasi sesuai panduan redocking, sehingga file miglitol menggunakan versi dari Orang 2.
+2. Untuk Orang 5 mohon gunakan receptor, grid box (center dan size X, Y, Z), serta exhaustiveness yang sama dengan tahap redocking agar hasil dapat dibandingkan secara konsisten.
+3. Untuk Orang 4 mohon informasikan kepada saya apabila parameter grid box sudah final agar dapat dicantumkan pada bagian metode.
+4. Untuk Orang 2 informasi force field (UFF) di atas dapat digunakan pada bagian Metode (preparasi ligan kandidat).
+
+Apabila terdapat file yang tidak dapat dibuka di PyRx, mohon informasikan kepada saya. Hasil uji ADMET akan menyusul.

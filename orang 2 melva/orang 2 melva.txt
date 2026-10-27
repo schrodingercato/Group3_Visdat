@@ -1,0 +1,1 @@
+File ini merupakan file struktur tiga dimensi protein α-glukosidase yang telah dipreparasi menggunakan BIOVIA. Preparasi dilakukan dengan menghilangkan ligan native miglitol (MIG1001), molekul air (HOH), gliserol (GOL), dan komponen glikosilasi (NAG), sehingga diperoleh struktur protein reseptor yang telah dibersihkan.
